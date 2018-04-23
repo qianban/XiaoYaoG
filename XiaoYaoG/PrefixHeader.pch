@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  XiaoYaoG
+//
+//  Created by 曾宪才 on 2018/3/17.
+//  Copyright © 2018年 曾宪才. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <AFNetworking/AFNetworking.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "RACDelegateProxy.h"
+#import <MagicalRecord/MagicalRecord.h>
+#import <MJRefresh/MJRefresh.h>
+//#import <MBProgressHUD/MBProgressHUD.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <SDCycleScrollView/SDCycleScrollView.h>
+#import <TZImagePickerController/TZImagePickerController.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <TYAlertController/TYAlertController.h>
+#import <UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.h>
+#import <GUITabPagerViewController/GUITabPagerViewController.h>
+#import <ZYCornerRadius/UIImageView+CornerRadius.h>
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
+
+#import "Define.h"
+
+#endif /* PrefixHeader_pch */

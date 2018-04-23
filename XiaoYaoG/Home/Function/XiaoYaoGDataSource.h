@@ -1,0 +1,15 @@
+//
+//  XiaoYaoGDataSource.h
+//  XiaoYaoG
+//
+//  Created by 曾宪才 on 2018/4/19.
+//  Copyright © 2018年 曾宪才. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface XiaoYaoGDataSource : NSObject<GUITabPagerDataSource>
+
+@property (nonatomic, strong) NSArray *controllers;
+
+@end
