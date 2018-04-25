@@ -1,23 +1,15 @@
 //
-//  HomeMainViewModel.m
+//  XianXiaViewModel.m
 //  XiaoYaoG
 //
-//  Created by 曾宪才 on 2018/4/10.
+//  Created by 曾宪才 on 2018/4/23.
 //  Copyright © 2018年 曾宪才. All rights reserved.
 //
 
-#import "HomeMainViewModel.h"
+#import "XianXiaViewModel.h"
 
-typedef void(^Complete)(BOOL isFull);
 
-@interface HomeMainViewModel()
-
-@property (nonatomic, copy) Complete complete;
-@property (nonatomic, assign) BOOL direction;
-
-@end
-
-@implementation HomeMainViewModel
+@implementation XianXiaViewModel
 
 - (instancetype)init {
     if (self = [super init]) {
@@ -34,7 +26,7 @@ typedef void(^Complete)(BOOL isFull);
 }
 
 - (void)setupViewModel {
-    self.headerImages = @[@"006",@"007",@"008",@"009",@"011"];
+    self.headerImages = @[@"first",@"second",@"third"];
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     [dict setValue:@"login" forKey:@"action"];
     [dict setValue:@{@"username":@"sssssss",@"password":@"aaaaaaa"} forKey:@"parameters"];
@@ -43,23 +35,13 @@ typedef void(^Complete)(BOOL isFull);
     RACSignal *zipSignal = [headerSignal zipWith:cellSignal];
     self.command = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
         DLog(@"%@",input);
-        if ([input isKindOfClass:[RACTuple class]]) {
-            self.direction = ((RACTuple *)input)[0];
-            self.complete = ((RACTuple *)input)[1];
-            return cellSignal;
-        }
         return zipSignal;
     }];
-
+    
     [self.command.executionSignals.switchToLatest subscribeNext:^(id x) {
         DLog(@"%@",x);
         DLog(@"%@",NSStringFromClass([x class]));
         [SVProgressHUD dismissWithDelay:1 completion:^{
-            if ([x isKindOfClass:[RACTuple class]]) {
-
-            } else if ([x isKindOfClass:[NSDictionary class]]) {
-                self.complete(YES);
-            }
             [self.subject sendNext:x];
         }];
     }];

@@ -58,31 +58,30 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.tableView layoutIfNeeded];
-    [self setRACObserves];
-    [self setDelegateEvents];
-    [self setDataSourcesAndDelegates];
-    [self setUIUpdates];
+    [self setControlDataSources];
+    [self setRelationRACObserves];
+    [self realizeDelegatesAndEvents];
+    [self setControlDelegates];
+    [self setOrUpdateUI];
 }
 
-- (void)setRACObserves {
+- (void)setControlDataSources {
+    self.tableView.dataSource = self.dataSource;
+    self.itemCollectionView.dataSource = self.dataSource;
+}
+
+- (void)setRelationRACObserves {
     RAC(_cycleView, localizationImageNamesGroup) = RACObserve(self.viewModel, headerImages);
 }
 
-- (void)setDataSourcesAndDelegates {
-    self.tableView.dataSource = self.dataSource;
-    self.itemCollectionView.dataSource = self.dataSource;
-
+- (void)setControlDelegates {
     self.cycleView.delegate = self;
     self.tableView.delegate = self;
     self.tableView.freshDelegate = self;
     self.itemCollectionView.delegate = self;
 }
 
-- (void)setDelegateEvents {
-    [self.viewModel.subject subscribeNext:^(id x) {
-        self.dataSource.dataArray = [self creatArcArray];
-        [self.tableView reloadData];
-    }];
+- (void)realizeDelegatesAndEvents {
     [[self rac_signalForSelector:@selector(cycleScrollView:didSelectItemAtIndex:) fromProtocol:@protocol(SDCycleScrollViewDelegate)] subscribeNext:^(RACTuple *x) {
         DLog(@"%@",x);
         DLog(@"%@",x[0]);
@@ -100,9 +99,13 @@
     [[self rac_signalForSelector:@selector(dataRequestWithRefresh:complete:) fromProtocol:@protocol(UITableViewRefreshDelegate)] subscribeNext:^(id x) {
         [self.viewModel.command execute:x];
     }];
+    [self.viewModel.subject subscribeNext:^(id x) {
+        self.dataSource.dataArray = [self creatArcArray];
+        [self.tableView reloadData];
+    }];
 }
 
-- (void)setUIUpdates {
+- (void)setOrUpdateUI {
     _headerView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_WIDTH*0.6+_itemCollectionView.collectionViewLayout.collectionViewContentSize.height);
 }
 

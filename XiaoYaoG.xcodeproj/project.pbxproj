@@ -25,6 +25,9 @@
 		854B37AE208880FE00BCB4D6 /* XianXiaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 854B37AD208880FE00BCB4D6 /* XianXiaController.m */; };
 		8552104A20722CBB00D9C1E2 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8552104920722CBB00D9C1E2 /* RegisterController.m */; };
 		855A3B1E206B85B200CAA22C /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 855A3B1D206B85B200CAA22C /* LoginViewModel.m */; };
+		8568DE0B208DB39A0065C2A7 /* WangLuoDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8568DE0A208DB39A0065C2A7 /* WangLuoDataSource.m */; };
+		8568DE0E208DB3CB0065C2A7 /* WangLuoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8568DE0D208DB3CB0065C2A7 /* WangLuoViewModel.m */; };
+		8568DE11208DB3E40065C2A7 /* XianXiaViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8568DE10208DB3E40065C2A7 /* XianXiaViewModel.m */; };
 		85699BE820807F2300756BE8 /* HomeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85699BE720807F2300756BE8 /* HomeCollectionCell.m */; };
 		85699BF02080A25600756BE8 /* SourceMainDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 85699BEF2080A25600756BE8 /* SourceMainDataSource.m */; };
 		85699BF32080A43B00756BE8 /* JasSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85699BF22080A43B00756BE8 /* JasSetController.m */; };
@@ -34,6 +37,7 @@
 		856A4CDD207F52BD00FC8FC9 /* HomeMainDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 856A4CDC207F52BD00FC8FC9 /* HomeMainDataSource.m */; };
 		856A4CE0207F536D00FC8FC9 /* HomeMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 856A4CDF207F536D00FC8FC9 /* HomeMainCell.m */; };
 		85812CAC206C7D0800FB1DAD /* AFHTTPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 85812CAB206C7D0800FB1DAD /* AFHTTPTool.m */; };
+		85841021208EDF24004572F8 /* XianXiaDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 85841020208EDF24004572F8 /* XianXiaDataSource.m */; };
 		8589355B206A2C9E00FC3910 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85893558206A2C9E00FC3910 /* LoginController.m */; };
 		85893561206A2CF100FC3910 /* HomeMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8589355E206A2CF100FC3910 /* HomeMainController.m */; };
 		85893567206A2D1300FC3910 /* SourceMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85893564206A2D1200FC3910 /* SourceMainController.m */; };
@@ -89,6 +93,12 @@
 		8552104920722CBB00D9C1E2 /* RegisterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
 		855A3B1C206B85B200CAA22C /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
 		855A3B1D206B85B200CAA22C /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		8568DE09208DB39A0065C2A7 /* WangLuoDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WangLuoDataSource.h; sourceTree = "<group>"; };
+		8568DE0A208DB39A0065C2A7 /* WangLuoDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangLuoDataSource.m; sourceTree = "<group>"; };
+		8568DE0C208DB3CB0065C2A7 /* WangLuoViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WangLuoViewModel.h; sourceTree = "<group>"; };
+		8568DE0D208DB3CB0065C2A7 /* WangLuoViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangLuoViewModel.m; sourceTree = "<group>"; };
+		8568DE0F208DB3E40065C2A7 /* XianXiaViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XianXiaViewModel.h; sourceTree = "<group>"; };
+		8568DE10208DB3E40065C2A7 /* XianXiaViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XianXiaViewModel.m; sourceTree = "<group>"; };
 		85699BE620807F2300756BE8 /* HomeCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCollectionCell.h; sourceTree = "<group>"; };
 		85699BE720807F2300756BE8 /* HomeCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionCell.m; sourceTree = "<group>"; };
 		85699BEE2080A25600756BE8 /* SourceMainDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceMainDataSource.h; sourceTree = "<group>"; };
@@ -107,6 +117,8 @@
 		856A4CDF207F536D00FC8FC9 /* HomeMainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeMainCell.m; sourceTree = "<group>"; };
 		85812CAA206C7D0800FB1DAD /* AFHTTPTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPTool.h; sourceTree = "<group>"; };
 		85812CAB206C7D0800FB1DAD /* AFHTTPTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPTool.m; sourceTree = "<group>"; };
+		8584101F208EDF24004572F8 /* XianXiaDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XianXiaDataSource.h; sourceTree = "<group>"; };
+		85841020208EDF24004572F8 /* XianXiaDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XianXiaDataSource.m; sourceTree = "<group>"; };
 		85893557206A2C9E00FC3910 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		85893558206A2C9E00FC3910 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		8589355D206A2CF100FC3910 /* HomeMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMainController.h; sourceTree = "<group>"; };
@@ -244,6 +256,10 @@
 				854B37A12088691D00BCB4D6 /* XiaoYaoGDataSource.m */,
 				85E3F88920889F6F00537D46 /* JianJieDataSource.h */,
 				85E3F88A20889F6F00537D46 /* JianJieDataSource.m */,
+				8568DE09208DB39A0065C2A7 /* WangLuoDataSource.h */,
+				8568DE0A208DB39A0065C2A7 /* WangLuoDataSource.m */,
+				8584101F208EDF24004572F8 /* XianXiaDataSource.h */,
+				85841020208EDF24004572F8 /* XianXiaDataSource.m */,
 			);
 			path = Function;
 			sourceTree = "<group>";
@@ -316,6 +332,10 @@
 			children = (
 				8531C2CF207CABCE003F6694 /* HomeMainViewModel.h */,
 				8531C2D0207CABCE003F6694 /* HomeMainViewModel.m */,
+				8568DE0C208DB3CB0065C2A7 /* WangLuoViewModel.h */,
+				8568DE0D208DB3CB0065C2A7 /* WangLuoViewModel.m */,
+				8568DE0F208DB3E40065C2A7 /* XianXiaViewModel.h */,
+				8568DE10208DB3E40065C2A7 /* XianXiaViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -638,6 +658,7 @@
 				856A4CDD207F52BD00FC8FC9 /* HomeMainDataSource.m in Sources */,
 				85AB1BBA2079F3A7005BBCBD /* ForgetController.m in Sources */,
 				8531C2D1207CABCE003F6694 /* HomeMainViewModel.m in Sources */,
+				85841021208EDF24004572F8 /* XianXiaDataSource.m in Sources */,
 				85A63B02208490FC00994805 /* DynamicDetailController.m in Sources */,
 				85699BE820807F2300756BE8 /* HomeCollectionCell.m in Sources */,
 				854B379E2088473700BCB4D6 /* HuLuDController.m in Sources */,
@@ -650,6 +671,7 @@
 				85699BF62080A46900756BE8 /* LectureController.m in Sources */,
 				85893567206A2D1300FC3910 /* SourceMainController.m in Sources */,
 				85F20590205BA6DA00755649 /* AppDelegate.m in Sources */,
+				8568DE0E208DB3CB0065C2A7 /* WangLuoViewModel.m in Sources */,
 				85F205A1205BA6DA00755649 /* main.m in Sources */,
 				85A63B08208495BE00994805 /* HomeItemModel.m in Sources */,
 				856A4CE0207F536D00FC8FC9 /* HomeMainCell.m in Sources */,
@@ -661,12 +683,14 @@
 				85893573206A2D4600FC3910 /* MineMainController.m in Sources */,
 				85A63B052084918A00994805 /* XiaoYaoGController.m in Sources */,
 				8552104A20722CBB00D9C1E2 /* RegisterController.m in Sources */,
+				8568DE11208DB3E40065C2A7 /* XianXiaViewModel.m in Sources */,
 				8589356D206A2D2C00FC3910 /* TaskMainController.m in Sources */,
 				855A3B1E206B85B200CAA22C /* LoginViewModel.m in Sources */,
 				854B37AE208880FE00BCB4D6 /* XianXiaController.m in Sources */,
 				85E3F88B20889F6F00537D46 /* JianJieDataSource.m in Sources */,
 				854B37A5208874B200BCB4D6 /* XiaoYaoGJianJieCell.m in Sources */,
 				85699BF02080A25600756BE8 /* SourceMainDataSource.m in Sources */,
+				8568DE0B208DB39A0065C2A7 /* WangLuoDataSource.m in Sources */,
 				8589355B206A2C9E00FC3910 /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

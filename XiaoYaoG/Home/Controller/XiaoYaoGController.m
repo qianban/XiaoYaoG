@@ -57,6 +57,10 @@
 
 }
 
+- (void)setDataSources {
+    self.dataSource = self.GDataSource;
+}
+
 - (void)setRACObserves {
     RAC(self.GDataSource, controllers) = RACObserve(self, subControllers);
     [RACObserve(self.GDataSource, controllers) subscribeNext:^(id x) {
@@ -66,10 +70,6 @@
 
 - (void)setDelegateEvents {
     
-}
-
-- (void)setDataSources {
-    self.dataSource = self.GDataSource;
 }
 
 - (void)setDelegates {

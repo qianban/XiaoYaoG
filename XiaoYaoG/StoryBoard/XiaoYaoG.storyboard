@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -65,7 +66,6 @@
                         <view key="tableFooterView" contentMode="scaleToFill" id="EGi-FL-wEs">
                             <rect key="frame" x="0.0" y="3166" width="375" height="1"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
                         <sections>
                             <tableViewSection headerTitle="【箫遥阁简介】" id="0wx-Fl-I8n">
@@ -307,18 +307,18 @@
                                         <rect key="frame" x="0.0" y="1459" width="375" height="192"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="u9X-84-y04" id="VDD-iS-jhp">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="191.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="192"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lns-Ry-t4C">
-                                                    <rect key="frame" x="311" y="0.0" width="49" height="191.5"/>
+                                                    <rect key="frame" x="320" y="0.0" width="39" height="192"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="linian" id="NCb-58-Ic9">
-                                                    <rect key="frame" x="8" y="0.0" width="288" height="191.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="289" height="192"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -328,7 +328,7 @@
                                         <rect key="frame" x="0.0" y="1651" width="375" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zlm-13-SlK" id="vbE-Vb-aqb">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="●特制斑竹洞箫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lb1-q9-X3T" userLabel="●特制斑竹洞箫：">
@@ -352,18 +352,18 @@
                                         <rect key="frame" x="0.0" y="1726" width="375" height="192"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FTA-qu-Gpk" id="G5r-CN-PJC">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="191.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="192"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="evN-r5-EUO">
-                                                    <rect key="frame" x="311" y="0.0" width="49" height="191.5"/>
+                                                    <rect key="frame" x="320" y="0.0" width="39" height="192"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="linian" id="3dt-JT-kHW">
-                                                    <rect key="frame" x="8" y="0.0" width="288" height="191.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="289" height="192"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -373,18 +373,18 @@
                                         <rect key="frame" x="0.0" y="1918" width="375" height="192"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="x5w-Wr-sND" id="yvG-WD-SeG">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="191.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="192"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="G5g-JH-u9o">
-                                                    <rect key="frame" x="311" y="0.0" width="49" height="191.5"/>
+                                                    <rect key="frame" x="320" y="0.0" width="39" height="192"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="linian" id="Blj-8h-byU">
-                                                    <rect key="frame" x="8" y="0.0" width="288" height="191.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="289" height="192"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -394,11 +394,11 @@
                                         <rect key="frame" x="0.0" y="2110" width="375" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hFr-yp-ho5" id="aUQ-Td-zbw">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="49.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="●各种南管洞箫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6Yo-mR-eMt" userLabel="●特制斑竹洞箫：">
-                                                    <rect key="frame" x="15" y="5.5" width="105" height="18"/>
+                                                    <rect key="frame" x="15" y="4.5" width="105" height="18"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <nil key="textColor"/>
@@ -443,7 +443,7 @@
                                         <rect key="frame" x="0.0" y="2382" width="375" height="68"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hkr-nF-M9f" id="bvm-hw-pr0">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="68"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="67.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="●线上分享：" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9iU-hL-4hs">
@@ -467,7 +467,7 @@
                                         <rect key="frame" x="0.0" y="2450" width="375" height="105"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UNP-my-ToX" id="iRV-nk-djd">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="104.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="●线下雅集：" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ODc-zY-AQp">
@@ -494,18 +494,18 @@
                                         <rect key="frame" x="0.0" y="2555" width="375" height="192"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nRb-BV-AkB" id="WQe-0m-Wg8">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="192"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="191.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6eU-IX-grW">
-                                                    <rect key="frame" x="320" y="0.0" width="39" height="192"/>
+                                                    <rect key="frame" x="311" y="0.0" width="49" height="191.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="linian" id="e49-fe-WN3">
-                                                    <rect key="frame" x="16" y="0.0" width="289" height="192"/>
+                                                    <rect key="frame" x="8" y="0.0" width="288" height="191.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -519,7 +519,7 @@
                                         <rect key="frame" x="0.0" y="2777" width="375" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4yf-yg-R4A" id="mQ1-RE-56Y">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="●武汉总部：" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="A7I-dn-vcu">
@@ -546,7 +546,7 @@ QQ372240523/微信：s372240523</string>
                                         <rect key="frame" x="0.0" y="2867" width="375" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MCa-zZ-BNv" id="zti-E8-UDC">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="●长沙分部：" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0mE-1L-NLg">
@@ -572,7 +572,7 @@ QQ372240523/微信：s372240523</string>
                                         <rect key="frame" x="0.0" y="2957" width="375" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="C0v-XZ-6RS" id="5wA-d5-XFm">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="●重庆分部：" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Wje-Jw-6cT">
@@ -640,136 +640,89 @@ QQ372240523/微信：s372240523</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        <view key="tableHeaderView" contentMode="scaleToFill" id="hwv-40-82H">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="6g0-vx-dev">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫声悠然，自然纯朴，从心而发，溯心而归" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnM-Rv-j2e">
-                                    <rect key="frame" x="15" y="9" width="345" height="18"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                    <color key="textColor" red="0.17017066959999999" green="0.55821700510000005" blue="0.13162224049999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫者同心，清音如故，箫遥一族，真诚相邀" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E11-BS-iSh">
-                                    <rect key="frame" x="15" y="37" width="345" height="18"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                    <color key="textColor" red="0.17017066959999999" green="0.55821700510000005" blue="0.13162224049999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
+                                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="DCb-Uz-tTI">
+                                    <rect key="frame" x="0.0" y="188" width="375" height="29"/>
+                                    <segments>
+                                        <segment title="武汉"/>
+                                        <segment title="长沙"/>
+                                        <segment title="重庆"/>
+                                    </segments>
+                                    <color key="tintColor" red="0.34509803919999998" green="0.46666666670000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </segmentedControl>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Axt-TO-pjY" customClass="SDCycleScrollView">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="187.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="Axt-TO-pjY" secondAttribute="height" multiplier="2" id="PkB-el-tjO"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="pageControlStyle">
+                                            <integer key="value" value="0"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="scrollDirection">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="pageControlAliment">
+                                            <integer key="value" value="0"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="autoScrollTimeInterval">
+                                            <integer key="value" value="2"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstItem="E11-BS-iSh" firstAttribute="leading" secondItem="hwv-40-82H" secondAttribute="leading" constant="15" id="Yg1-0y-Ip1"/>
-                                <constraint firstAttribute="trailing" secondItem="vnM-Rv-j2e" secondAttribute="trailing" constant="15" id="cdB-im-WSf"/>
-                                <constraint firstAttribute="trailing" secondItem="E11-BS-iSh" secondAttribute="trailing" constant="15" id="jh8-GX-kPE"/>
-                                <constraint firstItem="E11-BS-iSh" firstAttribute="top" secondItem="vnM-Rv-j2e" secondAttribute="bottom" constant="10" id="ms2-vb-4qC"/>
-                                <constraint firstAttribute="bottom" secondItem="E11-BS-iSh" secondAttribute="bottom" constant="10" id="nZ0-jv-b47"/>
-                                <constraint firstItem="vnM-Rv-j2e" firstAttribute="leading" secondItem="hwv-40-82H" secondAttribute="leading" constant="15" id="owQ-o8-PgS"/>
+                                <constraint firstAttribute="trailing" secondItem="Axt-TO-pjY" secondAttribute="trailing" id="1dS-2z-vYC"/>
+                                <constraint firstItem="Axt-TO-pjY" firstAttribute="leading" secondItem="6g0-vx-dev" secondAttribute="leading" id="HcT-S4-9JN"/>
+                                <constraint firstAttribute="bottom" secondItem="DCb-Uz-tTI" secondAttribute="bottom" id="Pr0-pJ-Tjk"/>
+                                <constraint firstItem="Axt-TO-pjY" firstAttribute="top" secondItem="6g0-vx-dev" secondAttribute="top" id="gQe-KW-aV8"/>
+                                <constraint firstAttribute="trailing" secondItem="DCb-Uz-tTI" secondAttribute="trailing" id="l22-2C-6HE"/>
+                                <constraint firstItem="DCb-Uz-tTI" firstAttribute="leading" secondItem="6g0-vx-dev" secondAttribute="leading" id="uxr-f4-lhP"/>
                             </constraints>
                         </view>
                         <sections>
                             <tableViewSection id="DPA-yu-iho">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="R4Y-kp-U7P" style="IBUITableViewCellStyleDefault" id="ZmZ-IJ-a94">
-                                        <rect key="frame" x="0.0" y="65" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="ORd-tE-ViX">
+                                        <rect key="frame" x="0.0" y="216" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZmZ-IJ-a94" id="34F-4p-rlu">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ORd-tE-ViX" id="RHC-aL-x60">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="【箫遥阁简介】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="R4Y-kp-U7P">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="003" translatesAutoresizingMaskIntoConstraints="NO" id="tWw-fK-jK7">
+                                                    <rect key="frame" x="10" y="10" width="99.5" height="79.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="tWw-fK-jK7" secondAttribute="height" multiplier="5:4" id="ICY-0V-ABK"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫遥阁网络学箫之教学纲要" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pey-he-bgI">
+                                                    <rect key="frame" x="119.5" y="10" width="245.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="flR-BQ-88D" style="IBUITableViewCellStyleDefault" id="Iha-YG-9uX">
-                                        <rect key="frame" x="0.0" y="109" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Iha-YG-9uX" id="j3w-uc-cHB">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="【箫遥阁洞箫教学】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="flR-BQ-88D">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫遥阁洞箫网络公益教学班欢迎您！！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BNU-iX-3df">
+                                                    <rect key="frame" x="119.5" y="35.5" width="245.5" height="36"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.67450980390000004" green="0.67450980390000004" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="xtV-he-s7X" style="IBUITableViewCellStyleDefault" id="gey-fb-6Vc">
-                                        <rect key="frame" x="0.0" y="153" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gey-fb-6Vc" id="PCe-Pr-vLG">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="【箫遥阁洞箫制作】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xtV-he-s7X">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="cdd-Ig-zRn" style="IBUITableViewCellStyleDefault" id="W0b-FG-0L4">
-                                        <rect key="frame" x="0.0" y="197" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="W0b-FG-0L4" id="vdj-GR-o9p">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="【箫遥阁洞箫分享雅集】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cdd-Ig-zRn">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Htv-nx-ZCN" style="IBUITableViewCellStyleDefault" id="x6F-Yk-xoJ">
-                                        <rect key="frame" x="0.0" y="241" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="x6F-Yk-xoJ" id="Zdh-fr-tQG">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="【箫遥阁联系方式】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Htv-nx-ZCN">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="ci3-2u-Co5" style="IBUITableViewCellStyleDefault" id="Jee-Se-aC2">
-                                        <rect key="frame" x="0.0" y="285" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jee-Se-aC2" id="qH8-PK-K9h">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="【箫遥阁网上学习园地】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ci3-2u-Co5">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="BNU-iX-3df" firstAttribute="leading" secondItem="tWw-fK-jK7" secondAttribute="trailing" constant="10" id="3LP-2d-hGP"/>
+                                                <constraint firstAttribute="bottom" secondItem="tWw-fK-jK7" secondAttribute="bottom" constant="10" id="70j-Qy-piY"/>
+                                                <constraint firstItem="tWw-fK-jK7" firstAttribute="leading" secondItem="RHC-aL-x60" secondAttribute="leading" constant="10" id="Ecv-Xu-5ME"/>
+                                                <constraint firstAttribute="trailing" secondItem="Pey-he-bgI" secondAttribute="trailing" constant="10" id="MZ6-V6-ZOE"/>
+                                                <constraint firstItem="Pey-he-bgI" firstAttribute="leading" secondItem="tWw-fK-jK7" secondAttribute="trailing" constant="10" id="Ue6-FT-RNB"/>
+                                                <constraint firstItem="BNU-iX-3df" firstAttribute="top" secondItem="Pey-he-bgI" secondAttribute="bottom" constant="5" id="WvX-j5-8ip"/>
+                                                <constraint firstAttribute="trailing" secondItem="BNU-iX-3df" secondAttribute="trailing" constant="10" id="jHh-WY-hpv"/>
+                                                <constraint firstItem="tWw-fK-jK7" firstAttribute="top" secondItem="RHC-aL-x60" secondAttribute="top" constant="10" id="qTS-gS-GsS"/>
+                                                <constraint firstItem="Pey-he-bgI" firstAttribute="top" secondItem="tWw-fK-jK7" secondAttribute="top" id="rKk-Lm-GpL"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -780,10 +733,15 @@ QQ372240523/微信：s372240523</string>
                             <outlet property="delegate" destination="u0Y-m4-D4e" id="tvV-gU-Pqp"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="changeSeg" destination="DCb-Uz-tTI" id="Ln2-gy-GAM"/>
+                        <outlet property="cycleView" destination="Axt-TO-pjY" id="HKF-Ee-dkq"/>
+                        <outlet property="headerView" destination="6g0-vx-dev" id="l96-Ty-eyc"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="keE-BQ-1JH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1734" y="455"/>
+            <point key="canvasLocation" x="-495" y="406"/>
         </scene>
         <!--网络学箫-->
         <scene sceneID="zHi-rS-9Op">
@@ -795,152 +753,262 @@ QQ372240523/微信：s372240523</string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="VBO-53-hEc">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫声悠然，自然纯朴，从心而发，溯心而归" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XrN-qq-hBY">
-                                    <rect key="frame" x="15" y="9" width="345" height="18"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                    <color key="textColor" red="0.17017066959999999" green="0.55821700510000005" blue="0.13162224049999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫者同心，清音如故，箫遥一族，真诚相邀" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMx-k1-9Fs">
-                                    <rect key="frame" x="15" y="37" width="345" height="18"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                    <color key="textColor" red="0.17017066959999999" green="0.55821700510000005" blue="0.13162224049999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
+                                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="8LI-nE-mB0">
+                                    <rect key="frame" x="0.0" y="188" width="375" height="29"/>
+                                    <segments>
+                                        <segment title="公益班"/>
+                                        <segment title="收费班"/>
+                                    </segments>
+                                    <color key="tintColor" red="0.34509803919999998" green="0.46666666670000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </segmentedControl>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MW7-Wl-ACp" customClass="SDCycleScrollView">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="187.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="MW7-Wl-ACp" secondAttribute="height" multiplier="2" id="bGq-Jm-uQH"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="pageControlStyle">
+                                            <integer key="value" value="0"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="scrollDirection">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="pageControlAliment">
+                                            <integer key="value" value="0"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="autoScrollTimeInterval">
+                                            <integer key="value" value="2"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstItem="XrN-qq-hBY" firstAttribute="leading" secondItem="VBO-53-hEc" secondAttribute="leading" constant="15" id="EOR-Gk-Mdp"/>
-                                <constraint firstAttribute="trailing" secondItem="dMx-k1-9Fs" secondAttribute="trailing" constant="15" id="G0C-6b-G3L"/>
-                                <constraint firstItem="dMx-k1-9Fs" firstAttribute="leading" secondItem="VBO-53-hEc" secondAttribute="leading" constant="15" id="Vmi-Th-lAf"/>
-                                <constraint firstAttribute="bottom" secondItem="dMx-k1-9Fs" secondAttribute="bottom" constant="10" id="mJD-85-8RM"/>
-                                <constraint firstAttribute="trailing" secondItem="XrN-qq-hBY" secondAttribute="trailing" constant="15" id="t2b-O0-0qW"/>
-                                <constraint firstItem="dMx-k1-9Fs" firstAttribute="top" secondItem="XrN-qq-hBY" secondAttribute="bottom" constant="10" id="yWQ-LI-m3r"/>
+                                <constraint firstItem="8LI-nE-mB0" firstAttribute="leading" secondItem="VBO-53-hEc" secondAttribute="leading" id="4Ef-c8-HAe"/>
+                                <constraint firstAttribute="trailing" secondItem="MW7-Wl-ACp" secondAttribute="trailing" id="7pL-et-VDm"/>
+                                <constraint firstAttribute="trailing" secondItem="8LI-nE-mB0" secondAttribute="trailing" id="dLo-Ip-9es"/>
+                                <constraint firstItem="MW7-Wl-ACp" firstAttribute="top" secondItem="VBO-53-hEc" secondAttribute="top" id="fNo-Qe-oPD"/>
+                                <constraint firstAttribute="bottom" secondItem="8LI-nE-mB0" secondAttribute="bottom" id="gOe-mk-Yvr"/>
+                                <constraint firstItem="MW7-Wl-ACp" firstAttribute="leading" secondItem="VBO-53-hEc" secondAttribute="leading" id="vDL-as-Cgc"/>
                             </constraints>
                         </view>
                         <sections>
                             <tableViewSection id="YkZ-ng-6D7">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Nrn-TQ-FsN" style="IBUITableViewCellStyleDefault" id="qXf-kC-hUb">
-                                        <rect key="frame" x="0.0" y="65" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="eDI-N0-Cps">
+                                        <rect key="frame" x="0.0" y="216" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qXf-kC-hUb" id="uhK-Ac-cHu">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eDI-N0-Cps" id="aZM-7b-Wh1">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="【箫遥阁简介】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nrn-TQ-FsN">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="003" translatesAutoresizingMaskIntoConstraints="NO" id="fqM-8Z-bn7">
+                                                    <rect key="frame" x="10" y="10" width="99.5" height="79.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="fqM-8Z-bn7" secondAttribute="height" multiplier="5:4" id="Mv3-75-xuo"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫遥阁洞箫网络公益教学班报名须知" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0k-3d-EeK">
+                                                    <rect key="frame" x="119.5" y="10" width="245.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫遥阁洞箫网络公益教学班欢迎您！！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isJ-CD-E9H">
+                                                    <rect key="frame" x="119.5" y="35.5" width="245.5" height="36"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.67450980390000004" green="0.67450980390000004" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="M0k-3d-EeK" firstAttribute="leading" secondItem="fqM-8Z-bn7" secondAttribute="trailing" constant="10" id="03O-X0-l2f"/>
+                                                <constraint firstItem="M0k-3d-EeK" firstAttribute="top" secondItem="fqM-8Z-bn7" secondAttribute="top" id="2Ln-UV-juZ"/>
+                                                <constraint firstItem="isJ-CD-E9H" firstAttribute="leading" secondItem="fqM-8Z-bn7" secondAttribute="trailing" constant="10" id="ALQ-xT-Bi7"/>
+                                                <constraint firstItem="fqM-8Z-bn7" firstAttribute="leading" secondItem="aZM-7b-Wh1" secondAttribute="leading" constant="10" id="RoN-LF-aFI"/>
+                                                <constraint firstItem="fqM-8Z-bn7" firstAttribute="top" secondItem="aZM-7b-Wh1" secondAttribute="top" constant="10" id="Uib-zI-wsq"/>
+                                                <constraint firstAttribute="trailing" secondItem="isJ-CD-E9H" secondAttribute="trailing" constant="10" id="cT6-aP-SWM"/>
+                                                <constraint firstAttribute="bottom" secondItem="fqM-8Z-bn7" secondAttribute="bottom" constant="10" id="dup-d7-I68"/>
+                                                <constraint firstAttribute="trailing" secondItem="M0k-3d-EeK" secondAttribute="trailing" constant="10" id="rqd-61-u8d"/>
+                                                <constraint firstItem="isJ-CD-E9H" firstAttribute="top" secondItem="M0k-3d-EeK" secondAttribute="bottom" constant="5" id="zPe-RL-IeG"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="r1H-k8-QkM" style="IBUITableViewCellStyleDefault" id="mSU-RD-Xg1">
-                                        <rect key="frame" x="0.0" y="109" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Oxa-uM-6rc">
+                                        <rect key="frame" x="0.0" y="316" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mSU-RD-Xg1" id="Wyo-jt-bhr">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Oxa-uM-6rc" id="Rde-ab-5DO">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="【箫遥阁洞箫教学】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="r1H-k8-QkM">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="003" translatesAutoresizingMaskIntoConstraints="NO" id="NKR-Yj-96R">
+                                                    <rect key="frame" x="10" y="10" width="99.5" height="79.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="NKR-Yj-96R" secondAttribute="height" multiplier="5:4" id="FpM-ef-FKU"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫遥阁网络学箫之教学纲要" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ue9-Wo-mQX">
+                                                    <rect key="frame" x="119.5" y="10" width="245.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫遥阁洞箫网络公益教学班欢迎您！！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9i-Fw-rus">
+                                                    <rect key="frame" x="119.5" y="35.5" width="245.5" height="36"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.67450980390000004" green="0.67450980390000004" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="NKR-Yj-96R" firstAttribute="leading" secondItem="Rde-ab-5DO" secondAttribute="leading" constant="10" id="5cs-b4-Wd7"/>
+                                                <constraint firstItem="w9i-Fw-rus" firstAttribute="leading" secondItem="NKR-Yj-96R" secondAttribute="trailing" constant="10" id="HRt-ng-m6K"/>
+                                                <constraint firstItem="w9i-Fw-rus" firstAttribute="top" secondItem="Ue9-Wo-mQX" secondAttribute="bottom" constant="5" id="S6Z-gV-KNY"/>
+                                                <constraint firstAttribute="bottom" secondItem="NKR-Yj-96R" secondAttribute="bottom" constant="10" id="VDX-7f-MyE"/>
+                                                <constraint firstItem="Ue9-Wo-mQX" firstAttribute="leading" secondItem="NKR-Yj-96R" secondAttribute="trailing" constant="10" id="aBq-ru-qRA"/>
+                                                <constraint firstItem="Ue9-Wo-mQX" firstAttribute="top" secondItem="NKR-Yj-96R" secondAttribute="top" id="hJ2-l0-bn5"/>
+                                                <constraint firstAttribute="trailing" secondItem="w9i-Fw-rus" secondAttribute="trailing" constant="10" id="iDs-7p-z6h"/>
+                                                <constraint firstAttribute="trailing" secondItem="Ue9-Wo-mQX" secondAttribute="trailing" constant="10" id="nEU-Ie-R8H"/>
+                                                <constraint firstItem="NKR-Yj-96R" firstAttribute="top" secondItem="Rde-ab-5DO" secondAttribute="top" constant="10" id="ryH-1A-QY2"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="lJg-Iy-Tn2" style="IBUITableViewCellStyleDefault" id="hxw-TZ-2E9">
-                                        <rect key="frame" x="0.0" y="153" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="zs4-Gd-1Fd">
+                                        <rect key="frame" x="0.0" y="416" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hxw-TZ-2E9" id="M7C-65-fvl">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zs4-Gd-1Fd" id="KeM-ZP-IaZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="【箫遥阁洞箫制作】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lJg-Iy-Tn2">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="003" translatesAutoresizingMaskIntoConstraints="NO" id="3w9-Pe-gmE">
+                                                    <rect key="frame" x="10" y="10" width="99.5" height="79.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="3w9-Pe-gmE" secondAttribute="height" multiplier="5:4" id="R9m-Gd-wZ5"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫遥阁洞箫网络公益教学班报名须知" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sI8-kH-QAM">
+                                                    <rect key="frame" x="119.5" y="10" width="245.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫遥阁洞箫网络公益教学班欢迎您！！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SbQ-RE-XIT">
+                                                    <rect key="frame" x="119.5" y="35.5" width="245.5" height="36"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.67450980390000004" green="0.67450980390000004" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="SbQ-RE-XIT" secondAttribute="trailing" constant="10" id="1Px-iy-OgX"/>
+                                                <constraint firstItem="3w9-Pe-gmE" firstAttribute="top" secondItem="KeM-ZP-IaZ" secondAttribute="top" constant="10" id="Oz7-O1-rjO"/>
+                                                <constraint firstAttribute="trailing" secondItem="sI8-kH-QAM" secondAttribute="trailing" constant="10" id="R29-Kh-8Bm"/>
+                                                <constraint firstItem="sI8-kH-QAM" firstAttribute="top" secondItem="3w9-Pe-gmE" secondAttribute="top" id="SaY-o1-8cJ"/>
+                                                <constraint firstAttribute="bottom" secondItem="3w9-Pe-gmE" secondAttribute="bottom" constant="10" id="YUm-z4-Af3"/>
+                                                <constraint firstItem="SbQ-RE-XIT" firstAttribute="leading" secondItem="3w9-Pe-gmE" secondAttribute="trailing" constant="10" id="beX-cA-erR"/>
+                                                <constraint firstItem="sI8-kH-QAM" firstAttribute="leading" secondItem="3w9-Pe-gmE" secondAttribute="trailing" constant="10" id="dhC-LO-Mbt"/>
+                                                <constraint firstItem="SbQ-RE-XIT" firstAttribute="top" secondItem="sI8-kH-QAM" secondAttribute="bottom" constant="5" id="giD-JW-Dfg"/>
+                                                <constraint firstItem="3w9-Pe-gmE" firstAttribute="leading" secondItem="KeM-ZP-IaZ" secondAttribute="leading" constant="10" id="uNw-34-VKh"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="VSC-QQ-Go4" style="IBUITableViewCellStyleDefault" id="a4G-nl-Iqc">
-                                        <rect key="frame" x="0.0" y="197" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="ShG-oc-1Io">
+                                        <rect key="frame" x="0.0" y="516" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a4G-nl-Iqc" id="Fiv-32-FcT">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ShG-oc-1Io" id="Veg-lv-0ES">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="【箫遥阁洞箫分享雅集】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VSC-QQ-Go4">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="003" translatesAutoresizingMaskIntoConstraints="NO" id="7XW-Nq-bNd">
+                                                    <rect key="frame" x="10" y="10" width="99.5" height="79.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="7XW-Nq-bNd" secondAttribute="height" multiplier="5:4" id="c1m-eI-2w4"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫遥阁洞箫网络公益教学班报名须知" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wbb-Nf-yk2">
+                                                    <rect key="frame" x="119.5" y="10" width="245.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫遥阁洞箫网络公益教学班欢迎您！！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZu-Np-PuQ">
+                                                    <rect key="frame" x="119.5" y="35.5" width="245.5" height="36"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.67450980390000004" green="0.67450980390000004" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="xZu-Np-PuQ" firstAttribute="top" secondItem="Wbb-Nf-yk2" secondAttribute="bottom" constant="5" id="9G6-th-XwR"/>
+                                                <constraint firstItem="7XW-Nq-bNd" firstAttribute="top" secondItem="Veg-lv-0ES" secondAttribute="top" constant="10" id="AaG-bn-I34"/>
+                                                <constraint firstAttribute="trailing" secondItem="xZu-Np-PuQ" secondAttribute="trailing" constant="10" id="G3k-p9-hMO"/>
+                                                <constraint firstAttribute="bottom" secondItem="7XW-Nq-bNd" secondAttribute="bottom" constant="10" id="HkZ-A9-242"/>
+                                                <constraint firstAttribute="trailing" secondItem="Wbb-Nf-yk2" secondAttribute="trailing" constant="10" id="NSa-D8-hdW"/>
+                                                <constraint firstItem="Wbb-Nf-yk2" firstAttribute="top" secondItem="7XW-Nq-bNd" secondAttribute="top" id="TID-re-agu"/>
+                                                <constraint firstItem="Wbb-Nf-yk2" firstAttribute="leading" secondItem="7XW-Nq-bNd" secondAttribute="trailing" constant="10" id="gNw-g3-WjX"/>
+                                                <constraint firstItem="xZu-Np-PuQ" firstAttribute="leading" secondItem="7XW-Nq-bNd" secondAttribute="trailing" constant="10" id="kdB-jj-m9C"/>
+                                                <constraint firstItem="7XW-Nq-bNd" firstAttribute="leading" secondItem="Veg-lv-0ES" secondAttribute="leading" constant="10" id="nJK-JL-WTN"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="aEY-qv-Ihp" style="IBUITableViewCellStyleDefault" id="SdY-TY-6ZY">
-                                        <rect key="frame" x="0.0" y="241" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="r5E-Pz-XEX">
+                                        <rect key="frame" x="0.0" y="616" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SdY-TY-6ZY" id="nVi-Li-Prc">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="r5E-Pz-XEX" id="4kQ-5F-uT4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="【箫遥阁联系方式】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aEY-qv-Ihp">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="003" translatesAutoresizingMaskIntoConstraints="NO" id="2np-f1-yjL">
+                                                    <rect key="frame" x="10" y="10" width="99.5" height="79.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="2np-f1-yjL" secondAttribute="height" multiplier="5:4" id="EGL-X9-AHT"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫遥阁洞箫网络公益教学班报名须知" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jce-bA-wPc">
+                                                    <rect key="frame" x="119.5" y="10" width="245.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="dyE-vz-RU9" style="IBUITableViewCellStyleDefault" id="Mr9-GW-Bok">
-                                        <rect key="frame" x="0.0" y="285" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Mr9-GW-Bok" id="4Fa-7n-20I">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="【箫遥阁网上学习园地】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dyE-vz-RU9">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="箫遥阁洞箫网络公益教学班欢迎您！！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3b-bZ-da3">
+                                                    <rect key="frame" x="119.5" y="35.5" width="245.5" height="36"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.67450980390000004" green="0.67450980390000004" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="2np-f1-yjL" secondAttribute="bottom" constant="10" id="007-KF-F4V"/>
+                                                <constraint firstItem="w3b-bZ-da3" firstAttribute="leading" secondItem="2np-f1-yjL" secondAttribute="trailing" constant="10" id="1Lw-vg-QeD"/>
+                                                <constraint firstItem="Jce-bA-wPc" firstAttribute="leading" secondItem="2np-f1-yjL" secondAttribute="trailing" constant="10" id="3ev-sh-yX0"/>
+                                                <constraint firstItem="2np-f1-yjL" firstAttribute="leading" secondItem="4kQ-5F-uT4" secondAttribute="leading" constant="10" id="E8L-2S-mc4"/>
+                                                <constraint firstAttribute="trailing" secondItem="Jce-bA-wPc" secondAttribute="trailing" constant="10" id="Kfa-gn-97t"/>
+                                                <constraint firstItem="Jce-bA-wPc" firstAttribute="top" secondItem="2np-f1-yjL" secondAttribute="top" id="jOS-OJ-avo"/>
+                                                <constraint firstItem="w3b-bZ-da3" firstAttribute="top" secondItem="Jce-bA-wPc" secondAttribute="bottom" constant="5" id="jWz-gZ-aS3"/>
+                                                <constraint firstItem="2np-f1-yjL" firstAttribute="top" secondItem="4kQ-5F-uT4" secondAttribute="top" constant="10" id="p77-RV-rlZ"/>
+                                                <constraint firstAttribute="trailing" secondItem="w3b-bZ-da3" secondAttribute="trailing" constant="10" id="wG6-Fd-RsZ"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
-                        <connections>
-                            <outlet property="dataSource" destination="G0m-s8-gOI" id="QDd-Bd-9Pq"/>
-                            <outlet property="delegate" destination="G0m-s8-gOI" id="bbI-ni-zTl"/>
-                        </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="changeSeg" destination="8LI-nE-mB0" id="hpI-tF-FEa"/>
+                        <outlet property="cycleView" destination="MW7-Wl-ACp" id="6FI-gi-1zH"/>
+                        <outlet property="headerView" destination="VBO-53-hEc" id="pCB-ah-sLU"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6mE-fx-cDC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="417" y="-280"/>
+            <point key="canvasLocation" x="330" y="-352"/>
         </scene>
     </scenes>
     <resources>
+        <image name="003" width="279" height="155"/>
         <image name="linian" width="427" height="284"/>
     </resources>
 </document>
